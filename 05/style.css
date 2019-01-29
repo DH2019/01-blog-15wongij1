@@ -1,3 +1,28 @@
 article {
     background:  #0000;;
+    grid: 2em;
+    display: grid;
+}
+
+header {
+    background: pink;
+}
+
+section {
+
+}
+
+section.main {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+section.sources {
+    margin-left: 2em;
+    margin-right: 2em;
+    border: 2px;
+}
+
+img {
+    float: right;
 }

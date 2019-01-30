@@ -37,14 +37,15 @@ section.sidebar {
     grid-area: side;
     display: flex; 
     flex-direction: column;
-    justify-content:            /*these last two are optional*/
-    align-items:
+    justify-content: center;         /*these last two are optional*/
+    align-items: center;
 }
 
 section.sidebar img {
     max-width: 80%; /* you'll see why this is useful soon, I promise!*/
     border: 1px solid black;
     border-radius: 5px;
+    margin: 10px;
 }
 
 nav {
@@ -59,7 +60,7 @@ article {
     display: grid ;
     grid-template-columns: repeat (5, 1fr);
     grid-template-rows: repeat (5, 1fr);
-    grid-gap:                   /*the gap is optional*/    
+    grid-gap: 2px;                  /*the gap is optional*/    
 }
 
 /* these next two are just simple styling to make the div boxes visible */
